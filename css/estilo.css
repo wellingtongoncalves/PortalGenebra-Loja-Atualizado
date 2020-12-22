@@ -1,0 +1,261 @@
+body,h1,h2,p,ul,li,a{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-family:'Pirata One','Nerko One','Tahoma';
+    background:rgb(206, 206, 206) url(../imagens/fundo.jpg) fixed ;  
+}
+
+
+.historia p{
+    padding:15px;
+    font-family:'Amaranth','Helvetica','Arial';
+    border-radius: 8px ;
+    background-color:rgba(29, 123, 230, 0.733);
+    color:black;
+    width:600px;
+    
+    margin: 0 auto ;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none; 
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    
+}
+
+*{
+    
+    box-sizing: border-box; 
+    
+}
+
+/*barra-superior*/
+
+.barra-superior{
+    background:rgba(29, 123, 230, 0.733);
+    font-family:'Chakra Petch','Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    
+}
+
+.barra-superior p,.bar-sup a{
+    margin: 0 10px 10px 10px;
+    
+}
+
+.bar-sup{
+    max-width: 960px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.barra-superior    {
+   
+    font-family: 'Amaranth','Courier', 'monospace';
+    
+}
+
+.bar-sup p,a   {
+    color:rgba(240, 240, 240, 0.9);
+    font-family: 'Amaranth'
+}
+
+/*fim-barra-superior*/
+
+/*Menu-Navegação*/
+
+.menu-bg{
+    background-color:rgba(151, 34, 180, 0.9);
+    
+}
+
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding:12px 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.menu a{
+    border-radius: 19px 15px 15px 14px;
+    background-color:rgba(29, 123, 230, 0.733);
+      color:rgba(240, 240, 240, 0.9);
+}
+
+.tulipa a, img{
+    margin:0 2px;
+    width:188px;
+}
+
+.menu-nav ul{
+    
+    display:flex;
+}
+
+.menu-nav a{
+    font-size: 1.25em;
+    display:block;
+    padding:10px;
+}
+
+.menu-nav a:hover{
+    background-color:rgba(28, 31, 34, 0.733);
+     
+}
+
+
+
+
+.inicio .inicial .introducao ,h1  {
+    
+    text-align:center;
+    width: 250px;
+    margin:50px auto;
+    font-family: 'Pirata One';
+    padding: 15px;
+    border: 1px solid rgba(29, 123, 230, 0.733);
+    border-radius: 19px 15px 15px 14px;
+    background-color:rgba(29, 123, 230, 0.733);
+
+}
+
+.itens .itens2 .itens3  p {
+    margin: 15px;
+    
+    
+    align-items: center;
+    
+    
+}
+
+.itens, .itens2, .itens3 ,img  {
+    
+    border-radius: 10%;
+    align-items: center;
+    
+}
+
+.pro-container ,.pro-container2, .pro-container3{
+background-color:rgba(195, 205, 216, 0.609);
+}
+
+.pro-container ,.pro-container2, .pro-container3{
+    
+    padding:10px;
+    width: 33.3333%;
+    
+}
+
+
+.geral{
+    
+    display:flex;
+    flex-wrap: wrap;
+    margin:70px 19px;
+}
+
+ .precos{
+   
+    display:flex;
+    flex-wrap: wrap;
+    margin:70px 19px;
+     
+
+}
+
+.preco-caneca, .preco-caneca1, .preco-caneca2, .preco-caneca3, .preco-caneca4{
+   
+    padding:10px;
+    width:20%;
+    
+    
+    
+}
+
+.preco-caneca ,.preco-caneca1,.preco-caneca2,.preco-caneca3,.preco-caneca4 ,h2 span li {
+   text-align: center;
+    background-color:rgba(195, 205, 216, 0.609);
+    
+  
+}
+
+.preco-caneca h2{
+    margin:12px 5px;
+}
+
+.preco-caneca1 h2{
+    margin:12px 5px;
+}
+
+.preco-caneca2 h2{
+    margin:12px 5px;
+}
+
+.preco-caneca3 h2{
+    margin:12px 5px;
+}
+.preco-caneca4 h2{
+    margin:12px 5px;
+}
+
+
+.precos img{
+    border:1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10%;
+}
+
+
+.precos  h2 ,span, li {
+    color:rgba(0, 0, 0, 0.733);
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    
+    
+    
+}
+
+.botao-compra , .botao-compra1 , .botao-compra2 , .botao-compra3 , .botao-compra4 {
+    margin-top: 55px;
+    padding:9px;
+    color: black;
+    border: 1px solid rgba(29, 123, 230, 0.733);
+    border-radius: 19px;
+    background-color:rgba(29, 123, 230, 0.733);
+
+}
+
+.footer a {
+    display: inline-block;
+    justify-content:space-between;
+    font-size: 33px;
+
+
+}
+.footer  {
+    
+    border: 1px solid rgba(29, 123, 230, 0.733);
+    border-radius: 4px;
+    background-color:rgba(29, 123, 230, 0.733);
+    
+}
