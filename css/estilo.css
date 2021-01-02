@@ -259,3 +259,23 @@ background-color:rgba(195, 205, 216, 0.609);
     background-color:rgba(29, 123, 230, 0.733);
     
 }
+
+/*Página de Contatos */
+
+.contatos  {
+    border: 1px solid rgba(29, 123, 230, 0.733);
+    border-radius: 4px;
+    text-align: center;
+    width: 500px;
+    max-width: 960px;
+    margin:50px auto;
+    background-color: rgba(29, 123, 230, 0.733);
+  }
+
+.contatos a {
+    color:black;
+}
+
+.contatos input, textarea,{
+    align-items: center;
+}
